@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New game</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="javascript/script.js"></script>
+</head>
+<body>
+	<div class="main_container">
+		 	<div class="tooltip" style="margin-top: 90px">
+			 <a target="_top" href="startpage.html">
+			 	<h1>KALAMBURY</h1>
+			 	<span class="tooltiptext">Przejdź do strony głównej</span>
+			 </a>
+			</div>
+		<div class="buttons">
+			<div class="sound">
+				<button type="button" class="small_buttons" onClick='document.getElementById("dzwiek").innerHTML = "pies"'><i class="icon-volume-low"><span class="_tooltiptext">Wyłącz dźwięk</span></i>
+				</button>
+			</div>
+			<div class="score">
+				<button type="button" class="small_buttons" onClick="goToNajlepszewyniki()"><i class="icon-flag-checkered"></i><span class="_tooltiptext">Tabela wyników</span>
+				</button>
+			</div>
+			<div style="clear: both;"></div>
+			<div class="chat">
+				<button type="button" class="small_buttons"><i class="icon-comment"></i><span class="_tooltiptext">Dodaj komentarz</span>
+				</button>
+			</div>
+			<div class="categories">
+				<button type="button" class="small_buttons" onClick="goToKategorie()"><i class="icon-list-numbered"></i><span class="_tooltiptext">Wybierz kategorię</span>
+				</button>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+		<footer>tu będzie email &bull; tu pisemna prośba o łaskę &bull; Panie daj Pan 6 &copy</footer>
+	</div>
+</body>
+</html>

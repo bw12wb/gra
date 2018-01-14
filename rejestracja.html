@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New game</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<link rel="stylesheet" type="text/css" href="css/fontello.css">
+	<script src="javascript/script.js"></script>
+</head>
+<body>
+	<div class="main_container">
+			<div class="options">
+			 <button type="button" id="_options" onClick="goToUstawieniaPage()">
+		 		<i class="icon-cog">
+		 			<span class="_tooltiptext">Ustawienia</span>
+		 		</i>
+			 </button>
+		 	</div>
+		 	<div class="tooltip">
+			 <a target="_top"href="startpage.html">
+			 	<h1>KALAMBURY</h1>
+			 	<span class="tooltiptext">Przejdź do strony głównej</span>
+			 </a>
+
+			</div>
+		<div class="small_container">
+			<form>
+				<fieldset>
+					<legend style="text-align: center;"><strong>Zarejestruj się:</strong></legend></br>
+			<i>*Imię:</i><br>
+			<input class="submit" type="text" name=""imię" size="30"/></br></br>
+			<i>*Nazwisko:</i></br>
+			<input class="submit" type="text" name=""nazwisko" size="30"/></br></br>
+			<i>Płeć:</i></br>
+			<input class="płeć" type="radio" name="gender"/>Kobiet</br>
+			<input class="płeć" type="radio" name="gender"/>Mężczyzna</br>
+			<input class="płeć" type="radio" name="gender"/>Inne</br></br>
+			<i>*Data urodzeni:</i></br>
+			<input class="date" type="date" min="2010-01-01" name=""data_urodzenia" size="30"/></br></br>
+			<i>*Email:</i></br>
+			<input class="submit" type="email" name=""email" size="30"/></br></br>
+			<i>Numer Telefonu:</i></br>
+			<input class="submit" type="tel" name=""nr_telefonu" size="30"/></br></br>
+			<i>*Login:</i></br>
+			<input class="submit" type="text" name=""login" size="30"/></br></br>
+			<i>*Hasło:</i></br>
+			<input class="submit" type="password" name="haslo" min="6" size="30"/></br></br>
+			<i>*Powtórz Hasło:</i></br>
+			<input class="submit" type="password" name="powtórz_haslo" min="6" size="30"/></br></br>
+			<input class="zaloguj" type="submit" name="zaloguj"/>
+			<p>*Pola obowiązkowe!</p>
+				</fieldset>
+			</form>			
+		</div>
+		<footer>tu będzie email &bull; tu pisemna prośba o łaskę &bull; Panie daj Pan 6 &copy</footer>
+	</div>
+</body>
+</html>
